@@ -29,7 +29,7 @@ func FindDominantColors(fileInput string) ([]color.RGBA, error) {
 }
 
 func main() {
-	colors, err := FindDominantColors("test2.jpeg")
+	colors, err := FindDominantColors("cat.jpeg")
 	if err != nil {
 		panic(err)
 	}
